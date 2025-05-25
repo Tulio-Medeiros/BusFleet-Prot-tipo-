@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>BusFleet</title>
+  </head>
+  <body>
+    <div class="container">
+      <div style="display: flex">
+        <div class="cam">
+          <div class="align">
+            <div class="cam1"></div>
+            <div class="cam2"></div>
+            <div class="sound"></div>
+            <div class="cam3"></div>
+          </div>
+        </div>
+        <div class="loader-container" id="loaderContainer">
+          <div class="loader">
+            <img src="./imgs/Ativo 10.png" alt="" style="width: 200px" />
+          </div>
+          <div class="loading-progress">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+        </div>
+        <div class="menu">
+          <img id="logoa1" src="./imgs/Ativo 7.png" class="logoa1" alt="" />
+          <ul>
+            <div class="alink" id="alink">
+              <div>
+                <li>
+                  <a id="menu">
+                    <img src="./svg/format-justify.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./svg/home-alt.svg" alt="" id="home"
+                  /></a>
+                  <a href="" class="home">Home</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/dashboard.svg" alt="" /></a>
+                  <a href="">DashBoard</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/user.svg" alt="" /></a>
+                  <a href="">Drivers</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/align-bottom.svg" alt="" /></a>
+                  <a href="">Status</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/copy.svg" alt="" /></a>
+                  <a href="">Info</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/data.svg" alt="" /></a>
+                  <a href="">Traking</a>
+                </li>
+              </div>
+              <div class="log-out">
+                <div class="img1">
+                  <a href=""><img src="./svg/log-out.svg" alt="" /></a>
+                </div>
+                <div class="img2">
+                  <a href=""
+                    ><img
+                      src="./svg/icons8-gear-50.png"
+                      alt=""
+                      style="width: 22px"
+                      height="22"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <main>
+        <div class="title">
+          <h1>Home</h1>
+          <img src="./svg/Ativo 1.svg" alt="" style="width: 36px" />
+        </div>
+        <div class="over2">
+          <h3 class="pad">Overview</h3>
+          <div class="overview">
+            <div class="status1">
+              <div class="buses">
+                <img src="./imgs/bus (1).png" alt="" />
+                <h4>12</h4>
+                <p>Buses</p>
+              </div>
+              <div class="drivers">
+                <img src="./imgs/steering-wheel.png" alt="" />
+                <h4>32</h4>
+                <p>Drivers</p>
+              </div>
+              <div class="routes">
+                <img src="./imgs/black-placeholder-variant.png" alt="" />
+                <h4>5</h4>
+                <p>Routes</p>
+              </div>
+            </div>
+            <h3>Bus Status</h3>
+            <div class="status">
+              <div class="inservice">
+                <div class="bolinhaverde"></div>
+                <div class="inserv">
+                  <h4>8</h4>
+                  <p>In Service</p>
+                </div>
+              </div>
+              <div class="inactive">
+                <div class="bolinhaamarela"></div>
+                <div class="inserv">
+                  <h4>4</h4>
+                  <p>Inactive</p>
+                </div>
+              </div>
+            </div>
+            <div class="recent">
+              <h2>Recent Activity</h2>
+              <div class="a" id="b">
+                <div>
+                  <img class="imgbus" src="./imgs/bus.png" alt="" />
+                </div>
+                <div>
+                  <h4>Bus 140</h4>
+                  <div class="p">
+                    <p>maintanace completed</p>
+                    <p class="space">2h ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="a">
+                <div>
+                  <img class="imgbus" src="./imgs/bus.png" alt="" />
+                </div>
+                <div>
+                  <h4>Bus 132</h4>
+                  <div class="p">
+                    <p>maintanace completed</p>
+                    <p class="space">2h ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="a">
+                <div>
+                  <img class="imgbus" src="./imgs/bus.png" alt="" />
+                </div>
+                <div>
+                  <h4>Bus 110</h4>
+                  <div class="p">
+                    <p>maintanace completed</p>
+                    <p class="space">2h ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="a">
+                <div>
+                  <img class="imgbus" src="./imgs/bus.png" alt="" />
+                </div>
+                <div>
+                  <h4>Bus 120</h4>
+                  <div class="p">
+                    <p>maintanace completed</p>
+                    <p class="space">2h ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
