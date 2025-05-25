@@ -15,7 +15,7 @@
   margin-top: 4px;
 
   width: 390px;
-  height: 710px;
+  height: 700px;
 }
 
 .cam {
@@ -109,7 +109,7 @@ li {
   position: absolute;
   z-index: 1;
   background: white;
-  height: 650px;
+  height: 640px;
 }
 
 li {
@@ -123,7 +123,7 @@ li {
 
 .log-out {
   display: flex;
-  margin-top: 210px;
+  margin-top: 180px;
   margin-left: 3px;
   gap: 10px;
   align-items: center;
@@ -369,9 +369,10 @@ main {
   margin-top: 5px;
   width: 250px;
   display: flex;
-  padding: 10px 0px 10px 10px;
+  padding: 10px 0px 0px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 #b {
   margin-top: 10px;
