@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashstyle.css" />
+    <title>BusFleet</title>
+  </head>
+  <body>
+    <div class="container">
+      <div style="display: flex">
+        <div class="cam">
+          <div class="align">
+            <div class="cam1"></div>
+            <div class="cam2"></div>
+            <div class="sound"></div>
+            <div class="cam3"></div>
+          </div>
+        </div>
+        <div class="menu">
+          <img id="logoa1" src="./imgs/Ativo 7.png" class="logoa1" alt="" />
+          <ul>
+            <div class="alink" id="alink">
+              <div>
+                <li>
+                  <a id="menu">
+                    <img src="./svg/format-justify.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="main.html"
+                    ><img src="./svg/home-alt.svg" alt="" id="home"
+                  /></a>
+                  <a href="" class="home">Home</a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img class="opadash" src="./svg/dashboard.svg" alt=""
+                  /></a>
+                  <a href="">DashBoard</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/user.svg" alt="" /></a>
+                  <a href="">Drivers</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/align-bottom.svg" alt="" /></a>
+                  <a href="">Status</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/copy.svg" alt="" /></a>
+                  <a href="">Info</a>
+                </li>
+                <li>
+                  <a href=""><img src="./svg/data.svg" alt="" /></a>
+                  <a href="">Traking</a>
+                </li>
+              </div>
+              <div class="log-out">
+                <div class="img1">
+                  <a href="index.html"
+                    ><img src="./svg/log-out.svg" alt=""
+                  /></a>
+                </div>
+                <div class="img2">
+                  <a href=""
+                    ><img
+                      src="./svg/icons8-gear-50.png"
+                      alt=""
+                      style="width: 22px"
+                      height="22"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <main>
+        <div class="title">
+          <h1>DashBorad</h1>
+          <img src="./svg/Ativo 1.svg" alt="" style="width: 36px" />
+        </div>
+        <div class="dashboard">
+          <div class="chartitle">
+            <h1>Frequencia de Frotas</h1>
+            <p>Frequencia das suas frotas</p>
+            <div class="buttonsle">
+              <button class="lastyear">
+                <p>Last Year</p>
+                <img src="./imgs/seta-direita.png" alt="" />
+              </button>
+              <button class="exportdata">
+                <img src="./imgs/dowload.png" alt="" />
+                <p>Export Data</p>
+              </button>
+            </div>
+          </div>
+          <div class="chart">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <div class="textdash">
+            <h4>Frequência das Frotas</h4>
+            <p>
+              O gráfico do protótipo mostra a frequência de operação das frotas
+              na empresa, indicando quantas viagens cada uma realizou em um
+              determinado período. Essa visualização ajuda a identificar quais
+              frotas são mais utilizadas e onde podem ser feitos ajustes,
+              contribuindo para uma gestão mais eficiente e estratégica da
+              operação.
+            </p>
+          </div>
+          <div class="grapizza">
+            <h1>Status dos Onibus</h1>
+            <div class="pizzagra">
+              <div class="grafico-pizza"></div>
+              <div class="porcent">
+                <div class="b40at">
+                  <div class="b40"></div>
+                  <p>40% Ativos</p>
+                </div>
+                <div class="b30at">
+                  <div class="b30"></div>
+                  <p>30% Em Espera</p>
+                </div>
+                <div class="b15at">
+                  <div class="b15"></div>
+                  <p>15% Em Manutenção</p>
+                </div>
+                <div class="b15ati">
+                  <div class="b15i"></div>
+                  <p>15% Estragados</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
